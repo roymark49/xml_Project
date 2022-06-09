@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="regression">
+	<test name="LoginTest">
+
+
+		<parameter name="USERNAME" value="demo@techfios.com" />
+		<parameter name="PASSWORD" value="abc123" />
+		<parameter name="FULLNAME" value="Mark Roy" />
+		<parameter name="COMPANY" value="Techfios" />
+		<parameter name="EMAIL" value="abz@gmail.com" />
+		<parameter name="PHONE" value="34786" />
+		<parameter name="ADDRESS" value="123 North drive" />
+		<parameter name="CITY" value="GR" />
+		<parameter name="STATE" value="MI" />
+		<parameter name="ZIP" value="48525" />
+		<parameter name="COUNTRY" value="United States" />
+
+		<classes>
+		<class name="test.LoginTest"></class>
+		<class name="test.AddContactTest"></class>
+		<class name="test.ListCustomersTest"></class>
+		<class name="test.ListCustomersElementTest"></class>	
+		</classes>
+	</test>
+</suite>
+
+	
+
+
+
+
+
+
+
